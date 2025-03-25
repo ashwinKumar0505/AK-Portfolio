@@ -93,6 +93,7 @@ button:focus {
   position: relative !important;
   background-color: transparent !important;
   border-color: transparent !important;
+  width: fit-content !important;
 }
 
 .navbar-toggler span {
@@ -149,7 +150,17 @@ button:focus {
   .navbar-nav .nav-item a::after {
     display: none !important;
   }
+  .type-mobile-view {
+    width: 80vw;
+  }
 }
+
+@media (max-width: 450px) {
+  .type-mobile-view {
+    margin-bottom: 20px;
+  }
+}
+
 .navbar-brand {
   color: rgb(250, 250, 250) !important;
 }
