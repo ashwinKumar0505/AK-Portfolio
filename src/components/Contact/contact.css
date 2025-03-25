@@ -1,0 +1,139 @@
+.text-center {
+  text-align: center;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: rgb(206, 247, 247);
+  margin-bottom: 1rem;
+}
+
+.title span {
+  color: #0cccee;
+}
+
+.subtitle {
+  color: white;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 3rem;
+  margin-top: 40px;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.contact-card {
+  border-radius: 1rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  background-color: aliceblue;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #025868;
+  margin-bottom: 1rem;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.phone-number {
+  font-family: "Atlassian Sans";
+}
+
+.icon {
+  background: white;
+  padding: 0.75rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon svg {
+  width: 1.5rem;
+  height: 1.5rem;
+  color: #0cccee;
+}
+
+.contact-info {
+  font-size: 1rem;
+  color: #374151;
+  margin-bottom: 0 !important;
+}
+
+.contact-social-icons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+  justify-content: center;
+}
+
+.contact-social-icons a:hover {
+  background: #c7d2fe;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+label {
+  display: block;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #374151;
+  margin-bottom: 0.5rem;
+  text-align: left;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: #0cccee;
+  box-shadow: 0 0 4px rgba(79, 70, 229, 0.5);
+}
+
+button {
+  width: 100%;
+  background: #0cccee;
+  color: white;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #4338ca;
+}

@@ -23,19 +23,19 @@ function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
+        <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <TbBrandGolang />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
+        <CgCPlusPlus />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <TbBrandGolang />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiSolidity />
