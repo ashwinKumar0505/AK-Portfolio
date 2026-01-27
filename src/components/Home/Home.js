@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
-import homeLogo from "../../Assets/home-image.png";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
