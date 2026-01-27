@@ -20,7 +20,7 @@ function Home2() {
             </h1>
             <p className="home-about-body">
               I am a <b className="purple">Senior Software Engineer</b> with
-              more than <b className="purple">5 years</b> of expertise in
+              more than <b className="purple">6 years</b> of expertise in
               designing and developing scalable, high-performance web
               applications.
               <br />

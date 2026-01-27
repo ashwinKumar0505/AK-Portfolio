@@ -18,6 +18,49 @@ const Experience = () => {
       </h1>
       <Container>
         <VerticalTimeline>
+          {/* Moniepoint Experience */}
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            contentArrowStyle={{ borderRight: "7px solid rgb(33, 150, 243)" }}
+            date="Present"
+            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            icon={<WorkIcon />}
+          >
+            <h3
+              className="vertical-timeline-element-title"
+              style={{ marginBottom: "10px" }}
+            >
+              Moniepoint – Senior Frontend Engineer
+            </h3>
+            <p>
+              Playing a key role in building and scaling fintech products with a
+              strong focus on performance, reliability, and user experience.
+            </p>
+            <ul style={{ textAlign: "left" }}>
+              <li>
+                Leading a team of Frontend Engineers, driving best practices,
+                architecture decisions, and code quality.
+              </li>
+              <li>
+                Key contributor to <strong>MonieDesk</strong>, building core
+                features and improving platform scalability.
+              </li>
+              <li>
+                Collaborating closely with product, design, and backend teams to
+                deliver high-impact features.
+              </li>
+              <li>
+                Owning frontend architecture and ensuring consistent UI/UX
+                across products.
+              </li>
+              <li>
+                <strong>Tech Stack:</strong> React.js, TypeScript, JavaScript,
+                Modern CSS, Component-driven architecture, CI/CD.
+              </li>
+            </ul>
+            
+          </VerticalTimelineElement>
           {/* Visa Inc. Experience */}
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
