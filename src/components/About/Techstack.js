@@ -1,68 +1,84 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
 import {
   DiJavascript1,
   DiReact,
   DiNodejs,
-  DiMongodb,
-  DiPython,
+  DiHtml5,
+  DiCss3,
   DiGit,
   DiJava,
 } from "react-icons/di";
 import {
-  SiRedis,
-  SiFirebase,
+  SiTypescript,
   SiNextdotjs,
-  SiSolidity,
-  SiPostgresql,
+  SiTailwindcss,
+  SiMui,
+  SiSpringboot,
+  SiDotnet,
+  SiCsharp,
+  SiAmazonaws,
+  SiJest,
+  SiTestinglibrary,
+  SiOpenai,
 } from "react-icons/si";
-import { TbBrandGolang } from "react-icons/tb";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={2} className="tech-icons" title="React">
         <DiReact />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <TbBrandGolang />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={2} className="tech-icons" title="Next.js">
         <SiNextdotjs />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
+      <Col xs={4} md={2} className="tech-icons" title="TypeScript">
+        <SiTypescript />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
+      <Col xs={4} md={2} className="tech-icons" title="JavaScript">
+        <DiJavascript1 />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiRedis />
+      <Col xs={4} md={2} className="tech-icons" title="HTML5">
+        <DiHtml5 />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
+      <Col xs={4} md={2} className="tech-icons" title="CSS3">
+        <DiCss3 />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
+      <Col xs={4} md={2} className="tech-icons" title="Tailwind CSS">
+        <SiTailwindcss />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={2} className="tech-icons" title="Material UI">
+        <SiMui />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons" title="Node.js">
+        <DiNodejs />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons" title="Java">
         <DiJava />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons" title="Spring Boot">
+        <SiSpringboot />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons" title=".NET">
+        <SiDotnet />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons" title="C#">
+        <SiCsharp />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons" title="AWS">
+        <SiAmazonaws />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons" title="Jest">
+        <SiJest />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons" title="React Testing Library">
+        <SiTestinglibrary />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons" title="Gen AI & LLM Workflows">
+        <SiOpenai />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons" title="Git">
+        <DiGit />
       </Col>
     </Row>
   );

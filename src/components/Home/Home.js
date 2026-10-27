@@ -35,7 +35,7 @@ function Home() {
                   href="/experience"
                   style={{ marginRight: "10px" }}
                 >
-                  View Projects
+                  View Experience
                 </Button>
                 <Button variant="outline-light" href="/contact">
                   Contact Me

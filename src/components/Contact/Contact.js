@@ -102,7 +102,7 @@ function App() {
               <FaMapMarkerAlt />
             </div>
             <div>
-              <p className="contact-info">Bangalore, India</p>
+              <p className="contact-info">Bengaluru, India</p>
             </div>
           </div>
 

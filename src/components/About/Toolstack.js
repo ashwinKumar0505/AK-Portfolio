@@ -6,24 +6,40 @@ import {
   SiSlack,
   SiVercel,
   SiMacos,
+  SiGithub,
+  SiGithubactions,
+  SiGitlab,
+  SiJenkins,
 } from "react-icons/si";
 
 function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={2} className="tech-icons" title="macOS">
         <SiMacos />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={2} className="tech-icons" title="VS Code">
         <SiVisualstudiocode />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={2} className="tech-icons" title="GitHub">
+        <SiGithub />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons" title="GitHub Actions">
+        <SiGithubactions />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons" title="Jenkins">
+        <SiJenkins />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons" title="GitLab">
+        <SiGitlab />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons" title="Postman">
         <SiPostman />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={2} className="tech-icons" title="Slack">
         <SiSlack />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={2} className="tech-icons" title="Vercel">
         <SiVercel />
       </Col>
     </Row>

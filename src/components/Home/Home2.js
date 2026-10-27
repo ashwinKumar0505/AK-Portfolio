@@ -18,39 +18,45 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I am a <b className="purple">Senior Software Engineer</b> with
-              more than <b className="purple">6 years</b> of expertise in
-              designing and developing scalable, high-performance web
-              applications.
+              I am a <b className="purple">Senior Frontend Engineer</b> with{" "}
+              <b className="purple">7 years</b> of experience designing,
+              building, and scaling high-performance web applications across{" "}
+              <b className="purple">
+                fintech, payments, e-commerce, and enterprise domains
+              </b>
+              .
               <br />
-              <br />
-              As the <b className="purple">ATC (point of contact)</b> for three
-              critical applications, I take ownership of{" "}
+              <br />I have strong expertise in frontend engineering with{" "}
               <i>
-                <b className="purple">system architecture, troubleshooting,</b>
+                <b className="purple">React, Next.js, TypeScript,</b>
               </i>{" "}
-              and <b className="purple">optimizing workflows</b>.
+              and modern JavaScript ecosystems, complemented by hands-on
+              experience in{" "}
+              <b className="purple">
+                backend development, APIs, cloud services,
+              </b>{" "}
+              and <b className="purple">full-stack system design</b>.
               <br />
-              <br />I am actively involved in{" "}
-              <b className="purple">release activities</b>, ensuring smooth
-              deployments and minimizing risks in production environments.
-              <br />
-              <br />
-              With strong <b className="purple">leadership skills</b>, I mentor
-              teams, drive technical initiatives, and collaborate effectively
-              across departments to deliver{" "}
+              <br />I have a proven track record of leading{" "}
+              <b className="purple">architecture decisions</b>, developing
+              scalable{" "}
               <i>
-                <b className="purple">high-quality software solutions</b>.
+                <b className="purple">
+                  micro-frontend and distributed systems
+                </b>
               </i>
+              , optimizing <b className="purple">Core Web Vitals</b> and
+              application performance, and delivering mission-critical products
+              end-to-end.
               <br />
               <br />
               Passionate about leveraging{" "}
               <i>
-                <b className="purple">modern technologies</b>
+                <b className="purple">AI-assisted development workflows</b>
               </i>{" "}
-              to build{" "}
-              <b className="purple">innovative and efficient applications</b>{" "}
-              that enhance user experiences.
+              and <b className="purple">intelligent product capabilities</b> to
+              accelerate delivery, improve developer productivity, and enhance
+              user experiences.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
